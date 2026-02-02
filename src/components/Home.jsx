@@ -53,8 +53,34 @@ export default function CoffeeHero() {
     ));
 
   return (
-    <section className="relative min-h-screen bg-[url('/images/bottom.webp')] overflow-hidden">
+    <section className="relative bg-[#4a1f0e] min-h-screen overflow-hidden">
       <Navbar />
+
+      {/* content */}
+
+      <svg
+        className="absolute -bottom-18 left-0 w-full h-[140px]"
+        viewBox="0 0 1440 240"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="
+      M0,0
+      H1440
+      V120
+      C1380,140 1320,130 1260,145
+      C1200,160 1140,145 1080,155
+      C1020,165 960,150 900,160
+      C840,170 780,155 720,165
+      C660,175 600,160 540,170
+      C480,180 420,165 360,175
+      C300,185 240,170 180,180
+      C120,190 60,185 0,195
+      Z
+    "
+          fill="#ffffff"
+        />
+      </svg>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center ">
         {/* LEFT CONTENT */}
